@@ -160,7 +160,7 @@ header
 
 .header-sp {
   position: fixed;
-  z-index: 99;
+  z-index: 200;
   top: 0;
   right: -120%;
   width: 100%;
@@ -181,7 +181,9 @@ header
 
 
   &__nav {
-    margin: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__nav-item {
@@ -228,14 +230,16 @@ top
 
   &__slider-logo {
     position: absolute;
-    top: 45%;
-    left: 60%;
+    top: 47%;
+    left: 55%;
     transform: translate(-50%, -50%);
 
 
 
     @include tab {
-      display: none;
+      top: 40%;
+      left: 50%;
+      width: 200px;
     }
 
   }
@@ -262,30 +266,6 @@ footer
 
   }
 
-  &__scroll-btn {
-    cursor: pointer;
-    position: fixed;
-    bottom: 4px;
-    right: 4px;
-    display: inline-block;
-    background-color: rgba(238, 238, 238, 0.692);
-    padding: 8px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    text-align: center;
-
-    i {
-      font-size: 24px;
-      color: rgb(109, 108, 108);
-      display: inline-block;
-      line-height: 20px;
-    }
-
-    @include tab {
-      display: none;
-    }
-  }
 
   &__sp-nav {
     display: flex;

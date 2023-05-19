@@ -94,6 +94,33 @@ li {
   }
 }
 
+.wrap {
+  &__scroll-btn {
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 4px;
+    display: inline-block;
+    background-color: rgba(238, 238, 238, 0.692);
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    
+
+    i {
+      font-size: 24px;
+      color: rgb(109, 108, 108);
+      display: inline-block;
+      line-height: 20px;
+    }
+
+
+  }
+
+}
+
 .main {
 
 
