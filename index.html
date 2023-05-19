@@ -1,0 +1,128 @@
+<!-- <?php
+  $des="サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。"
+  ; ?> -->
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="email=no,telephone=no,address=no">
+  <!--!!!!!!!!!!!!!!!!!WPでは不要!!!!!!!!!!!!!!!!!!!!!-->
+  <title>HEAVN MEAT　トップ</title>
+  <meta name="description" content="<?php echo $des; ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:description" content="<?php echo $des; ?>">
+  <meta property="og:site_name"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/fb.jpg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta name="twitter:description" content="<?php echo $des; ?>">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="assets/css/html5reset-1.6.1.css">
+  <link rel="stylesheet" href="assets/css/style.css?20230220">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body class="wrap">
+
+  <header class="header wrap-header">
+    <div class="header__inner">
+      <h1 class="header__ttl"><a href="index.html"><img src="assets/img/top/logo-w.png" alt="小田原駅前極上焼肉　HEAVEN MEAT"></a>
+      </h1>
+      <nav>
+        <ul class="header__nav">
+          <li class="header__nav-item"><a href="#" class="header__nav-link">ごあいさつ</a>
+          </li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">メニュー</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">オレイン55</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">店舗情報</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link"><i class="fab fa-instagram fa-2x"></i></a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link"><i class="fab fa-line fa-2x line-green"></i></a></li>
+          <li class="header__nav-item"><a href="tel:090-2230-6062" class="header__nav-link">tel:090-2230-6062</a></li>
+
+        </ul>
+      </nav>
+      <div class="header__open-btn">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div class="header-sp">
+      <div class="header-sp__inner">
+        <nav>
+          <ul class="header-sp__nav">
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">ごあいさつ</a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">メニュー</a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">オレイン55</a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link">店舗情報</a></li>
+            <li class="header-sp__nav-item "><a href="#" class="header-sp__nav-link"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li class="header-sp__nav-item"><a href="#" class="header-sp__nav-link"><i class="fab fa-line fa-2x"></i></a></li>
+            <li class="header-sp__nav-item"><a href="tel:090-2230-6062" class="header-sp__nav-link">tel:090-2230-6062</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+  <div class="main page-top">
+
+    <div class="main-visual page-top__main-visual">
+      <div class="main-visual__slider-wrap">
+        <div class="main-visual__slider top-slider-js">
+          <div class="main-visual__slider-item">
+            <img src="assets/img/top/top-slider01.jpg">
+          </div>
+          <div class="main-visual__slider-item">
+            <img src="assets/img/top/top-slider02.jpg">
+          </div>
+          <div class="main-visual__slider-item">
+            <img src="assets/img/top/top-slider03.jpg">
+          </div>
+        </div>
+        <!-- スライダーここまで -->
+        <p class="main-visual__slider-logo">
+          <img src="assets/img/top/logo.png" alt="小田原駅前極上焼肉　HEAVEN MEAT">
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+  <!--main end-->
+
+
+  <footer class="footer">
+    COPYRIGHT©HEAVEN MEAT. ALL RIGHTS RESERVED.
+    <!-- <div class="footer__scroll-btn top-to-js"><i class="fas fa-angle-double-up"></i></div> -->
+  </footer>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/main.js">
+  </script>
+</body>
+
+</html>
